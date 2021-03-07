@@ -1,6 +1,6 @@
 ## Run Code
 
-Open the file "4x4 puzzle with tracking.py" in an IDE (Spyder, VS Code etc) of your choice. All the test cases are given as input and solutions are found in the same python file. Further "nodePath_{*}.txt" files are generated which contains the solution strategy for a given initial and goal states.Also it contains information of other nodes generated (only string representation is mentioned in column major order).
+Open the file "4x4 puzzle with tracking.py" in an IDE (Spyder, VS Code etc) of your choice. Enter input of your choice. 
 
 ## Description
 This code aims at solving 15 puzzle problem with BFS. All the nodes corresponding with different positions of the blank tile are explored until a goal is found.
@@ -27,6 +27,6 @@ In this function the initial input values are taken and action sets is called an
 
 ## 5) main_function 
 
-In this function, the initial and goal states are assigned to the node dictionary. 
+In this function, the initial and goal states are assigned to the node dictionary. Following this tree generation function is called and node dictionary is updated. From the updated node dictionary solution track is obtained and plotted. It takes about 99 minutes to find optimal path using bfs for start point (0,0) and end point (400,300) 
 
 
