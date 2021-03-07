@@ -32,7 +32,7 @@ Outside of the above function definitions, the initial and goal states are assig
 
 Using Matplotlib, animation is generated. Firstly, animation for node exploration is generated and followed by optimal path trajectory's animation. 150 frames for node exploration and 50 frames for solution trajectory are used as default values for the animation. The resulting animation is also stored in Point_Robot_Visualization.mp4 file. 
 
-## if you get error while trying to save the animation in .mp4 file format, installation of FFMPEG may be required. [https://ffmpeg.org/download.html]
+### If you get error while trying to save the animation in .mp4 file format, installation of FFMPEG may be required. [https://ffmpeg.org/download.html]
 
 
 
