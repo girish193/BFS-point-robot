@@ -1,14 +1,15 @@
 ## Run Code
 
-Open the file "4x4 puzzle with tracking.py" in an IDE (Spyder, VS Code etc) of your choice. Enter input of your choice. 
+Open the file "bfs.py" in an IDE (Spyder, VS Code etc) of your choice. Enter valid input such that point does not lie in obstacle space or outside of workspace. For invalid inputs it exits with invalid input prompt.  
 
 ## Description
-This code aims at solving 15 puzzle problem with BFS. All the nodes corresponding with different positions of the blank tile are explored until a goal is found.
+This code aims at implementing BFS for a point robot to solve a given map. All the nodes corresponding with different points (x,y) on the map are explored until a goal is found.
 
 ## Dependencies
 * python -version 3
 * Numpy
-* copy
+* sys
+* matplotlib
 * time
 
 ## Function Descriptions 
