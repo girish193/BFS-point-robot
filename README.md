@@ -14,15 +14,15 @@ This code aims at implementing BFS for a point robot to solve a given map. All t
 
 ## Function Descriptions 
 
-## 1) Workspace_check
+## 1) workspace_check
  
 In this functiom the given value is checked to see if it lies in the workspace.  
 
-## 2) Obstacle_Space 
+## 2) obstacle_space 
 
 In this function thee given value is checked against obstacles and true is returned if it lies outside obstacle space. Obstacles which are given are C shaped polygon, rounded rectangle, ellipse, circle and polygon.  
 
-## 3) Tree_generation
+## 3) tree_generation
 
 In this function the initial input values are taken and action sets is called and top, topleft, top right, bottom left, bottom right,bottom, left ,right are performed to generate next set of moves. These values are stored in a list and if  thse values are not valid, they are removed. For each value stored in the search_value list, it is compared with the existing elements in the point database. If the point already exists, the value is not added, otherwise it is added in breadth first manner (BFS) which in turn is accomplished by using the key of the last element incremented by 1 as the new child key. This way the node numbers are added in BFS manner with their values. 
 
